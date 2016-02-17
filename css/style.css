@@ -1,6 +1,14 @@
-
-
+/*div {
+    outline: 1px solid red;
+}*/
 
 .chart {
   height: 500px;
+}
+
+.bar {
+    height: 10px;
+    background-color: aquamarine;
+    margin-top: 1px;
+    outline: 1px solid white; 
 }
