@@ -28,8 +28,9 @@ function loopThroughData(s) {
         var barWidth = gradPct * 10;
         
         if (schoolName === "FREDERICK DOUGLASS HIGH") {
-            $(".chart").append("<div class='bar' style='width:"+barWidth+"px'></div>");
+            $(".chart").append(
+                "<p>"+year+": "+gradPct+"%</p>"+
+                "<div class='bar' style='width:"+barWidth+"px'></div>");
         }
     }
 }
-
